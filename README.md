@@ -1,3 +1,3 @@
-# Kommander Test Repo
+# Kubernetes Test Repo
 
-> An application for running tests for Kommander and experimenting
+> An application for running tests and experimenting with Kubernetes

@@ -1,0 +1,16 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: some-app
+spec:
+  replicas: 3
+  template:
+    metadata:
+      name: some-app
+    spec:
+      containers:
+      - name: some-api-container
+        envFrom:
+          configMapRef:
+            name: some-app-config
+            option: false
